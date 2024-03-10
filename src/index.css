@@ -7,7 +7,6 @@
 }
 
 body {
-  /* overflow: hidden; */
   background-color: #212121;
 }
 
@@ -104,11 +103,6 @@ body {
 }
 
 @media screen and (max-width: 650px) {
-  /* Styles specific to screens with a maximum width of 650 pixels */
-  /* Add your responsive styles here */
-  /* body {
-    background-color: lightgray;
-  } */
   .container {
     justify-content: center;
   }
@@ -117,12 +111,11 @@ body {
     height: 400px;
     justify-content: space-evenly;
     flex-direction: column-reverse;
-    /* margin-top: 180px; */
   }
-  .contain{
+  .contain {
     justify-content: center;
   }
-  .wraper{
+  .wraper {
     justify-content: center;
   }
 }

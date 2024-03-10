@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 function Part({ data: { id, img, title, info, position, percent, date } }) {
-  // console.log(img);
   return (
     <div className="wrapper">
       <div className="top">
@@ -44,4 +43,3 @@ function Part({ data: { id, img, title, info, position, percent, date } }) {
 }
 
 export default Part;
-// "d"?"":

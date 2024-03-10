@@ -21,8 +21,7 @@ const Globe = () => {
       // Create a text element for the word "scale"
       const scaleText = document.createElement("div");
       scaleText.className = "scale-text";
-      // scaleText.style = "margin-right:10px";
-      // scaleText.style = "color:red";
+ 
       scaleText.style = "font-size:55px;color:#20CE70;text-align:center";
 
       scaleText.textContent = "stable";

@@ -60,8 +60,7 @@ function App() {
           <Part key={val.id} data={val} />
         ))}
       </div>
-      {/* <Globe /> */}
-      {/* <h5>kkjhkkjhkjh</h5> */}
+
     </div>
   );
 }
